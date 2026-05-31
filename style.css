@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg ,#0d6b85,#189753);
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+}
+.todocard{
+    background: linear-gradient(135deg,#4a0963,#97184b);
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0px 20px 50px rgba(0,0,0,0.3);
+}
+.todocard h1{
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    
+    font-weight: 600;
+    
+}
+.inputbox{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+
+    
+    
+}
+.inputbox input{
+    
+    padding: 14px 20px;
+    background: white;
+    border-radius: 10px;
+}
+.inputbox button{
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#list{
+    list-style: none;
+}
+#list li{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 12px;
+    background: white;
+    margin-bottom: 12px;
+    border-radius: 3px;
+}
+#list button{
+    cursor: pointer;
+    padding: 10px 15px;
+}
+.todo-text{
+    font-size: 20px;
+    cursor: pointer;
+}
+.completed .todo-text{
+    text-decoration: line-through;
+}
